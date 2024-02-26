@@ -56,7 +56,7 @@ background-color: red;
 
 /* MARGIN */
 .margin-right-5{
-    margin-left: 35px;
+    margin-right: 5px;
 }
 /* MARGIN */
 
@@ -103,25 +103,18 @@ background-color: red;
     margin: 150px auto;
     flex-wrap: wrap;
 
-    /* debug */
-    min-height: 300px;
-    border: 1px solid black;
 }
 
 .outer-article-box {
     width: calc(100%/3);
     padding: 0px 3px 10px;
 
-    /* debug */
-    border: 1px solid green;
 }
 
 .inner-article-box {
     position: relative;
     width: 100%;
 
-    /* debug */
-    height: 100%;
 }
 
 .inner-article-box .heart{
@@ -140,7 +133,6 @@ background-color: red;
     position: absolute;
     bottom: 25%;
     left: 0;
-    background-color: white;
     min-height: 1.5em;
     min-width: 1.5em;
     text-align: center;
