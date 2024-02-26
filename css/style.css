@@ -1,29 +1,46 @@
 /* RESET  */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* RESET  */
 
 /* COMMON */
-.img-size{
-    max-height: 100%;  
+.img-size {
+    max-height: 100%;
     max-width: 100%;
 }
 
-.img-first{
+/* chiedere se è corretta sintassi aggiungere una classe al css che viene usata solo per identificare un contenitore, senza che ci siano propiretà */
+.img-first {
 
 }
 
-.img-hover{
-
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
+.inner-article-box .img-hover {
+    opacity: 0;
+}
+
+.inner-article-box:hover .img-hover {
+    opacity: 1;
+}
+
+.inner-article-box:hover .img-first {
+    opacity: 0;
+}
+
 
 /* COMMON */
 
 /* MAIN  */
-.main-container{
+.main-container {
     width: 80%;
     display: flex;
     margin: 150px auto;
@@ -34,7 +51,7 @@
     border: 1px solid black;
 }
 
-.outer-article-box{
+.outer-article-box {
     width: calc(100%/3);
     padding: 10px;
 
@@ -42,7 +59,8 @@
     border: 1px solid green;
 }
 
-.inner-article-box{
+.inner-article-box {
+    position: relative;
     width: 100%;
 
     /* debug */
@@ -50,12 +68,6 @@
     background-color: aquamarine;
 }
 
-.inner-article-box .img-hover {
-  opacity: 0; 
-}
 
-.inner-article-box:hover .img-hover {
-  opacity: 1; 
-}
 
 /* MAIN  */
