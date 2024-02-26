@@ -15,9 +15,26 @@
 
 /* chiedere se è corretta sintassi aggiungere una classe al css che viene usata solo per identificare un contenitore, senza che ci siano propiretà */
 .img-first {
-
+    
 }
 
+/* COLORS */
+
+.text-white{
+    color: white;
+}
+
+.background-red{
+background-color: red;
+}
+
+.background-green{
+    background-color: green;
+    
+}
+/* COLORS */
+
+/* OPACITY RULES  */
 .img-hover {
     position: absolute;
     top: 0;
@@ -34,6 +51,46 @@
 
 .inner-article-box:hover .img-first {
     opacity: 0;
+}
+/* OPACITY RULES  */
+
+/* MARGIN */
+.margin-right-5{
+    margin-left: 35px;
+}
+/* MARGIN */
+
+/* PADDING */
+.padding-5{
+    padding: 5px;
+}
+/* PADDING */
+
+/* FONT  */
+.font-small-05{
+    font-size: 0.5rem;
+}
+
+.font-bold{
+    font-weight: 700;
+}
+
+.font-small-06{
+    font-size: 0.6rem;
+}
+
+.font-small-08{
+    font-size: 0.6rem;
+}
+
+.z-index-9999{
+    z-index: 9999
+}
+/* FONT  */
+
+/* FLEX  */
+.flex{
+    display: flex;
 }
 
 
@@ -53,7 +110,7 @@
 
 .outer-article-box {
     width: calc(100%/3);
-    padding: 5px;
+    padding: 0px 3px 10px;
 
     /* debug */
     border: 1px solid green;
@@ -65,8 +122,31 @@
 
     /* debug */
     height: 100%;
-    background-color: aquamarine;
 }
+
+.inner-article-box .heart{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    background-color: white;
+    min-height: 1.5em;
+    min-width: 1.5em;
+    text-align: center;
+    line-height: 1.5rem;
+
+}
+
+.inner-article-box .flex{
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    background-color: white;
+    min-height: 1.5em;
+    min-width: 1.5em;
+    text-align: center;
+
+}
+
 
 
 
