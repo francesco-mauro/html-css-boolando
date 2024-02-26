@@ -5,3 +5,37 @@
     box-sizing: border-box;
 }
 /* RESET  */
+
+/* COMMON */
+
+/* COMMON */
+
+/* MAIN  */
+.main-container{
+    width: 80%;
+    display: flex;
+    margin: 40px auto;
+    flex-wrap: wrap;
+
+    /* debug */
+    min-height: 300px;
+    border: 1px solid black;
+}
+
+.outer-article-box{
+    width: calc(100%/3);
+    padding: 10px;
+
+    /* debug */
+    border: 1px solid green;
+}
+
+.inner-article-box{
+    width: 100%;
+
+    /* debug */
+    height: 100%;
+    background-color: aquamarine;
+}
+
+/* MAIN  */
