@@ -7,6 +7,18 @@
 /* RESET  */
 
 /* COMMON */
+.img-size{
+    max-height: 100%;  
+    max-width: 100%;
+}
+
+.img-first{
+
+}
+
+.img-hover{
+
+}
 
 /* COMMON */
 
@@ -14,7 +26,7 @@
 .main-container{
     width: 80%;
     display: flex;
-    margin: 40px auto;
+    margin: 150px auto;
     flex-wrap: wrap;
 
     /* debug */
@@ -36,6 +48,14 @@
     /* debug */
     height: 100%;
     background-color: aquamarine;
+}
+
+.inner-article-box .img-hover {
+  opacity: 0; 
+}
+
+.inner-article-box:hover .img-hover {
+  opacity: 1; 
 }
 
 /* MAIN  */
