@@ -53,7 +53,7 @@
 
 .outer-article-box {
     width: calc(100%/3);
-    padding: 10px;
+    padding: 5px;
 
     /* debug */
     border: 1px solid green;
